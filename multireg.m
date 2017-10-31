@@ -19,6 +19,7 @@
 %        nu0
 %        V0: m*m matrix
 % Based on Rossi book, p64
+% Changed on Oct 31: happy halloween
 % *******************************************************************************
 
 function [B, Sigma] = multireg(Y, X, B0, A0, nu0, V0)
