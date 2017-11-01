@@ -51,4 +51,5 @@ CI = chol(Sigma,'lower');
 draw = normrnd(0, 1, k, m);
 B = Btilde + IR * draw * CI';
 
+
 end
